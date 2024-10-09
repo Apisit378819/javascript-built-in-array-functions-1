@@ -1,6 +1,7 @@
 let words = ["hello", "world"];
 
 function getWordLengths(words) {
+  return words.map((numword) => numword.length);
   // Start coding here
 }
 
